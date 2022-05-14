@@ -43,7 +43,7 @@ We decided to use PostgreSQL as the database for this project as the dataset wil
 
 The schematic of the database tables will be:
 
-![Image of Database_Structure](/Images/Database_Structure.png)
+![Image of Database_Structure](/Images/ERD_Diagram.png)
 
 
 ### **Dashboard**:
