@@ -45,6 +45,10 @@ The schematic of the database tables will be:
 
 ![Image of Database_Structure](/Images/ERD_Diagram.png)
 
+Sample data will look as follows:
+
+![Image of Database_Sample_Data](/Images/Database_Sample_Date.png)
+
 
 ### **Dashboard**:
 
