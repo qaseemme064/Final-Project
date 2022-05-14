@@ -47,7 +47,7 @@ The schematic of the database tables will be:
 
 Sample data will look as follows:
 
-![Image of Database_Sample_Data](/Images/Database_Sample_Data.png)
+![Screenshot 2022-05-14 094010](https://user-images.githubusercontent.com/96033163/168430057-99c1394a-c545-4461-a88c-46c78cf14a8f.png)
 
 
 ### **Dashboard**:
