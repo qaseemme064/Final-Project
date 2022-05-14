@@ -14,7 +14,7 @@ This project :
 - We'll allow the user to create filters that highlight individual participants.
 
 
-We hope to show  ???????
+We hope to show that personal health data collected thorugh activity trackers can be used to predict future health information about an individual which can be used to by health professionals in keeping their patients healthy.
 
 
 ### **Data Sources**:
@@ -45,6 +45,10 @@ The schematic of the database tables will be:
 
 ![Image of Database_Structure](/Images/ERD_Diagram.png)
 
+Sample data will look as follows:
+
+![Image of Database_Sample_Data](/Images/Database_Sample_Data.png)
+
 
 ### **Dashboard**:
 
@@ -63,5 +67,4 @@ The Dashboard will have 3 main parts:
 3) The **Patient Chart** section will display the collected and predicted future patient data over time in a chart. Users will be able to select which data stream(s) to include in the chart.
 
 ![Image of Dashboard_Patient_Chart](/Images/Dashboard_Patient_Chart.png)
-
 
