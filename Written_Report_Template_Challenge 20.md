@@ -29,7 +29,9 @@ https://www.kaggle.com/datasets/vlbthambawita/pmdata-a-sports-logging-dataset
 For machine learning part of this assignment we investigated the following models:
 
 ARIMA
+
 ARIMAX
+
 SARIMA
 
 We decided to use the ARIMA model as we did not feal that there would be seasonal factors (SARIMA) or external factors (ARIMAX) that would impact our predictions.
@@ -37,10 +39,14 @@ We decided to use the ARIMA model as we did not feal that there would be seasona
 
 ### **Database**:
 
+We decided to use PostgreSQL as the database for this project as the dataset will be structured and not change.
+
+The schematic of the database tables will be:
+
+![Image of Database_Structure](/Images/Database_Structure.png)
 
 
 ### **Dashboard**:
-
 
 The Dashboard will have 3 main parts:
 
