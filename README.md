@@ -39,7 +39,7 @@ We decided to use the ARIMA model as we did not feal that there would be seasona
 
 ### **Database**:
 
-We decided to use PostgreSQL as the database for this project as the dataset will be structured and not change.
+We decided to use PostgreSQL as the database for this project as the dataset will be structured and not be variable.
 
 The schematic of the database tables will be:
 
