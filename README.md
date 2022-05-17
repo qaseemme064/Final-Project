@@ -1,20 +1,18 @@
 # **Final Project**
 
-## **Final Project**
-
 ### **Purpose**
 
-Wearable fitness tracker that record an individual's activity and personal health data (such as heart rate) offers the ability to healthcare professionals to remotely monitor patients health. Futhermore, using machine learning, we can predict an individuals future health data thereby allowing preventative action to be taken today to correct health metrics that maybe trending towards an undesiable value.
+Wearable fitness tracker that record an individual's activity and personal health data (such as heart rate) offers the ability to healthcare professionals to remotely monitor a patient's health. Using machine learning, we hope to predict an individual's future health data thereby allowing preventative action to be taken early enough to correct health metrics that maybe trending towards an undesiable value.
 
 This project :
 
-- Uses data from activity trackers (such as Fitbit or Garmin) to measure participants personal data such as: heart rate, steps, sleep, and activity over time
-- With this data, we use machine learning to predict future values for these data streams for each participant.
-- We'll allow the user to graph a particiapnt's individual data streams.
-- We'll allow the user to create filters that highlight individual participants.
+- Uses data from activity trackers (such as Fitbit or Garmin) to measure participants personal data such as: calore intake, heart rate, steps, sleep, and activity over a defined period.
+- With this data, we would use machine learning to predict future values for these data streams for each participant.
+- Our model will allow the user to graph a particiapnt's individual data streams.
+- The user will be able to create filters that highlight individual participants.
 
 
-We hope to show that personal health data collected thorugh activity trackers can be used to predict future health information about an individual which can be used to by health professionals in keeping their patients healthy.
+We hope to show that personal health data collected through activity trackers can be used to predict future health information about an individual which can be used to by health professionals in keeping their patients healthy.
 
 
 ### **Data Sources**:
@@ -23,10 +21,9 @@ For this project we used a dataset found on kaggle which combines traditional li
 
 https://www.kaggle.com/datasets/vlbthambawita/pmdata-a-sports-logging-dataset
 
-
 ### **Machine Learning**:
 
-For machine learning part of this assignment we investigated the following models:
+We will use time series analysis in machine learning. The rationale is in the hope off helping health care professionals understand the underlying causes of trends or patterns over the time period. To this end, we investigated the following models:
 
 ARIMA
 
@@ -34,7 +31,7 @@ ARIMAX
 
 SARIMA
 
-We decided to use the ARIMA model as we did not feal that there would be seasonal factors (SARIMA) or external factors (ARIMAX) that would impact our predictions.
+and decided to use the ARIMA model in absence of seasonal factors (SARIMA) or external factors (ARIMAX) that would impact our predictions.
 
 
 ### **Database**:
