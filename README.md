@@ -14,6 +14,8 @@ This project :
 
 We hope to show that personal health data collected through activity trackers can be used to predict future health information about an individual which can be used to by health professionals in keeping their patients healthy.
 
+**Our hypothesis**:
+Wearable fitness tracker which captures salient metrics can be helpful to prolonging lifespan of individuals by alerting persons, health care professionals and insurance firms to future health issues.
 
 ### **Data Sources**:
 
@@ -21,20 +23,7 @@ For this project we used a dataset found on kaggle which combines traditional li
 
 https://www.kaggle.com/datasets/vlbthambawita/pmdata-a-sports-logging-dataset
 
-### **Machine Learning**:
-
-We will use time series analysis in machine learning. The rationale is in the hope off helping health care professionals understand the underlying causes of trends or patterns over the time period. To this end, we investigated the following models:
-
-ARIMA
-
-ARIMAX
-
-SARIMA
-
-and decided to use the ARIMA model in absence of seasonal factors (SARIMA) or external factors (ARIMAX) that would impact our predictions.
-
-
-### **Database**:
+### **Database**: Hasan please update justt add on
 
 We decided to use PostgreSQL as the database for this project as the dataset will be structured and not be variable.
 
@@ -47,7 +36,31 @@ Sample data will look as follows:
 ![Screenshot 2022-05-14 094010](https://user-images.githubusercontent.com/96033163/168430057-99c1394a-c545-4461-a88c-46c78cf14a8f.png)
 
 
-### **Dashboard**:
+### **Machine Learning**:
+
+We use time series analysis in machine learning. The rationale is in the hope off helping health care professionals understand the underlying causes of trends or patterns over the time period. To this end, we investigated the following models:
+
+ARIMA
+
+ARIMAX
+
+SARIMA
+
+and initially decided to use the ARIMA model in absence of seasonal factors (SARIMA) or external factors (ARIMAX) that would impact our predictions. After experiencing a couple of glitches in handling null values for a couple of participants and forecasting, we investigated another model - PROPHET.
+
+Travis & Hasan please update: submit codes
+**Application of Machine learning Model**
+
+***Preliminary Data preprocessing***
+
+***Preliminary feature engineering***
+
+***How data was split into training and testing***
+
+***reason for model choice and limitations***
+
+
+### **Dashboard**:Kelly please update - just add on
 
 The Dashboard will have 3 main parts:
 
