@@ -66,7 +66,7 @@ Travis & Hasan please update: submit codes
 ***reason for model choice and limitations***
 
 
-### **Dashboard**:Kelly please update - just add on
+### **Dashboard**
 
 The Dashboard will have 3 main parts:
 
@@ -83,4 +83,18 @@ The Dashboard will have 3 main parts:
 3) The **Patient Chart** section will display the collected and predicted future patient data over time in a chart. Users will be able to select which data stream(s) to include in the chart.
 
 ![Image of Dashboard_Patient_Chart](/Images/Dashboard_Patient_Chart.png)
+
+Tableau2021.3 will be used to create the dashboard as we will be importing the data from PostgreSQL. The Story will contain two Dashboards. 
+
+<u>Dashboard #1</u>
+
+The first Dashboard will contain the Alert System. The user would be allow to change the ranges of the filtered values to only show the patients, who have exceed values and hence Alerting the user which patients will need to be monitored. 
+
+![Image of Alert_system](/Images/Alert_system.png)
+
+<u>Dashboard #2</u>
+
+The second Dashboard will show the Participant Information. Adjusting the Patient ID will affect the data shown under Partient Information and also the Patient Chart. 
+![Image of Participant_Information](/Images/Participant_Information.png)
+
 
