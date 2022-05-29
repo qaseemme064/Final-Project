@@ -36,7 +36,9 @@ https://www.kaggle.com/datasets/vlbthambawita/pmdata-a-sports-logging-dataset
 
 ### **Database**
 
-We decided to use PostgreSQL as the database for this project as the dataset will be structured and not be variable.
+We decided to use Heroku as our database and for hosting we used pgAdmin4 and connected heroku with pgAdmin4. Due to restrictions of rows which is 10000 rows, we had to drop couple of our participents data in order to get number of rows with in 10000 rows. 
+
+Due to 10000 rows restriction we used VIEW command in our Postgres SQL. 
 
 The schematic of the database tables will be:
 
