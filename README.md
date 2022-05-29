@@ -46,7 +46,6 @@ Sample data will look as follows:
 
 ![Screenshot 2022-05-14 094010](https://user-images.githubusercontent.com/96033163/168430057-99c1394a-c545-4461-a88c-46c78cf14a8f.png)
 
-### **Machine Learning**:
 
 ### **Machine Learning**:
 
@@ -61,8 +60,6 @@ SARIMA
 and initially decided to use the ARIMA model in absence of seasonal factors (SARIMA) or external factors (ARIMAX) that would impact our predictions. As each participant (total number of 15 participants) and each dataset (7 different datasets) would require a machine learning model we would need a total of 105 models programmed. Since AMIRMA models have to be fit individually with After experiencing a couple of glitches in handling null values for a couple of participants and forecasting, we investigated another model - PROPHET. Prophet model allowed for fit to automated, so we choose to proceed with Prophet.
 
 
-**Application of Machine learning Model**
-
 ***Preliminary Data preprocessing***
 
 Trends
@@ -75,10 +72,20 @@ Outliners
 
 ***Preliminary feature engineering***
 
+- We used aunivariable time series model so there was no feature engineering or feature selection necessary.
+
 ***How data was split into training and testing***
 
-***reason for model choice and limitations***
+- We divided dataset into training and testing data using a training % variable.
+- This allowed us to change training % variable to see if this caused a better model fit.
+- We tested model using a 66% and 80% training fit % and felt the 66% variable produced better results.
 
+***Reason for model choice and limitations***
+
+- We choose the Prophet ML model due to the number of ML models that we needed to fit and the easy of use of the Prophet ML model.
+- AMIRA models require additional variable input by user which given the number of models which would not be pratical for this project.
+- Limititations: Prophet model was developed by Facebook business time series prediction. As such, in prediciting non business data, it can lead to higher error rates.
+- Advantages: Prophet model requires less hyperparameter tuning as it is specifically designed to detect patterns in business time series.
 
 ### **Dashboard**
 
