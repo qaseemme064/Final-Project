@@ -40,7 +40,9 @@ We decided to use PostgreSQL as the database for this project as the dataset wil
 
 The schematic of the database tables will be:
 
-![Image of Database_Structure](/Images/ERD_Diagram.png)
+![QuickDBD-export](https://user-images.githubusercontent.com/96033163/170885676-ee1fde21-d67b-4b7b-bba1-590c3280c814.png)
+
+
 
 Sample data will look as follows:
 
