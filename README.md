@@ -45,6 +45,10 @@ The schematic of the database tables will be:
 ![QuickDBD-export](https://user-images.githubusercontent.com/96033163/170885676-ee1fde21-d67b-4b7b-bba1-590c3280c814.png)
 
 
+Below is the quick look of heroku summary
+
+![heroku](https://user-images.githubusercontent.com/96033163/170887403-c6bde6a1-fa00-4a6d-89e5-e7313f780a6e.png)
+
 
 Sample data will look as follows:
 
