@@ -41,6 +41,7 @@ Sample data will look as follows:
 
 ![Screenshot 2022-05-14 094010](https://user-images.githubusercontent.com/96033163/168430057-99c1394a-c545-4461-a88c-46c78cf14a8f.png)
 
+### **Machine Learning**:
 
 ### **Machine Learning**:
 
@@ -52,12 +53,20 @@ ARIMAX
 
 SARIMA
 
-and initially decided to use the ARIMA model in absence of seasonal factors (SARIMA) or external factors (ARIMAX) that would impact our predictions. As each participant (total number of 15 participants) and each dataset (7 different datasets) woudl require a machine learning model we would need a total of 105 models programmed. Since AMIRMA models have to be fit individually with After experiencing a couple of glitches in handling null values for a couple of participants and forecasting, we investigated another model - PROPHET.
+and initially decided to use the ARIMA model in absence of seasonal factors (SARIMA) or external factors (ARIMAX) that would impact our predictions. As each participant (total number of 15 participants) and each dataset (7 different datasets) would require a machine learning model we would need a total of 105 models programmed. Since AMIRMA models have to be fit individually with After experiencing a couple of glitches in handling null values for a couple of participants and forecasting, we investigated another model - PROPHET. Prophet model allowed for fit to automated, so we choose to proceed with Prophet.
 
-Travis & Hasan please update: submit codes
+
 **Application of Machine learning Model**
 
 ***Preliminary Data preprocessing***
+
+Trends
+- Using charts we examined the data sets for trends.
+- There does not seem to be a trend in the 7 data streams.
+
+Outliners
+
+- Using charts, we examined the dataset for unusual values. There appear to be outliers and/or zero values in some data streams. We’ve decided to keep the outliers and zero values in the dataset used for predictions as we felt these would be normal occurrences in an individual’s lifestyle.
 
 ***Preliminary feature engineering***
 
