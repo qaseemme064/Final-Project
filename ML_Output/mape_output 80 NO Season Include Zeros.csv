@@ -1,0 +1,16 @@
+Participant_ID,steps,active_duration,active_heart_rate,distance,calories,resting_heartrate,sleep,Training_Percentage,Daily_Seasonality
+p01,70.04,77.21,No Data,inf,80.59,32.86,12.16,80,FALSE
+p02,121.8,61.39,No Data,inf,69.77,inf,26.67,80,FALSE
+p03,48.51,43.14,12.03,100,51.88,inf,61.24,80,FALSE
+p04,inf,93.31,14.44,inf,169.75,5.26,25.03,80,FALSE
+p05,inf,106.16,63.98,100,114.84,inf,37.98,80,FALSE
+p06,inf,171.59,41.13,inf,166.35,inf,37.23,80,FALSE
+p07,108.54,205.12,16.82,inf,140.88,inf,15.23,80,FALSE
+p08,inf,60.74,No Data,inf,139.65,inf,13.54,80,FALSE
+p09,2588.15,2130.1,83.79,100,2335.35,inf,27.38,80,FALSE
+p10,inf,81.57,9.37,inf,189.77,100,25.18,80,FALSE
+p11,217.55,128.43,70.53,inf,170.24,51.37,10.99,80,FALSE
+p12,395.1,162.8,57.67,100,139.84,No Data,3218.07,80,FALSE
+p13,inf,150.57,167.13,inf,637.51,No Data,31.58,80,FALSE
+p14,inf,180.74,No Data,inf,120.74,inf,39.87,80,FALSE
+p15,452.22,530.49,No Data,inf,207.15,inf,50.86,80,FALSE
