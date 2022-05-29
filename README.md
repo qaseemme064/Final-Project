@@ -88,19 +88,19 @@ Outliners
  
 **66% Training %, No Seasonaility** 
 
-![Image of 66 No Seasonaility](/Images/MAPE 66 No Seasonal.png)
+![Image of 66 No Seasonaility](/Images/MAPE_66_No_Seasonal.png)
 
 **66% Training %, Seasonaility** 
 
-![Image of 66 Seasonaility](/Images/MAPE 66 Seasonal.png)
+![Image of 66 Seasonaility](/Images/MAPE_66_Seasonal.png)
 
 **80% Training %, No Seasonaility** 
 
-![Image of 80 No Seasonaility](/Images/MAPE 80 No Seasonal.png)
+![Image of 80 No Seasonaility](/Images/MAPE_80_No_Seasonal.png)
 
 **80% Training %, Seasonaility** 
 
-![Image of 80 Seasonaility](/Images/MAPE 80 Seasonal.png)
+![Image of 80 Seasonaility](/Images/MAPE_80_Seasonal.png)
 
 ***Reason for model choice and limitations***
 
