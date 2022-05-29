@@ -34,7 +34,7 @@ For this project we used a dataset found on kaggle which combines traditional li
 
 https://www.kaggle.com/datasets/vlbthambawita/pmdata-a-sports-logging-dataset
 
-### **Database**: Hasan please update justt add on
+### **Database**
 
 We decided to use PostgreSQL as the database for this project as the dataset will be structured and not be variable.
 
@@ -45,6 +45,8 @@ The schematic of the database tables will be:
 Sample data will look as follows:
 
 ![Screenshot 2022-05-14 094010](https://user-images.githubusercontent.com/96033163/168430057-99c1394a-c545-4461-a88c-46c78cf14a8f.png)
+
+Active Heart Rate dataset had multiple entries per day per participant. Since project is using a minimum timeframe of a day, created a view in database to display average active heart rates per day per participant.
 
 
 ### **Machine Learning**:
@@ -79,6 +81,22 @@ Outliners
 - We divided dataset into training and testing data using a training % variable.
 - This allowed us to change training % variable to see if this caused a better model fit.
 - We tested model using a 66% and 80% training fit % and felt the 66% variable produced better results.
+
+- We decided to evaluate the ML models using MAPE (MAPE = abs(predicted value - test value) / abs(test value) * 100%)
+- 
+- Additional, Prophet ML model allows for daily seasonality. However, running the Prophet ML model using daily seaonality did not produce better MAPE results.
+ 
+**66% Training %, No Seasonaility** 
+![Image of 66 No Seasonaility](/Images/MAPE 66 No Seasonal.png)
+
+**66% Training %, Seasonaility** 
+![Image of 66 Seasonaility](/Images/MAPE 66 Seasonal.png)
+
+**80% Training %, No Seasonaility** 
+![Image of 80 No Seasonaility](/Images/MAPE 80 No Seasonal.png)
+
+**80% Training %, Seasonaility** 
+![Image of 80 Seasonaility](/Images/MAPE 80 Seasonal.png)
 
 ***Reason for model choice and limitations***
 
