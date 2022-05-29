@@ -52,7 +52,7 @@ ARIMAX
 
 SARIMA
 
-and initially decided to use the ARIMA model in absence of seasonal factors (SARIMA) or external factors (ARIMAX) that would impact our predictions. After experiencing a couple of glitches in handling null values for a couple of participants and forecasting, we investigated another model - PROPHET.
+and initially decided to use the ARIMA model in absence of seasonal factors (SARIMA) or external factors (ARIMAX) that would impact our predictions. As each participant (total number of 15 participants) and each dataset (7 different datasets) woudl require a machine learning model we would need a total of 105 models programmed. Since AMIRMA models have to be fit individually with After experiencing a couple of glitches in handling null values for a couple of participants and forecasting, we investigated another model - PROPHET.
 
 Travis & Hasan please update: submit codes
 **Application of Machine learning Model**
