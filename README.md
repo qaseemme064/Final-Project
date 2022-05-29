@@ -74,7 +74,7 @@ Outliners
 
 ***Preliminary feature engineering***
 
-- We used aunivariable time series model so there was no feature engineering or feature selection necessary.
+- We used a univariable time series model so there was no feature engineering or feature selection necessary.
 
 ***How data was split into training and testing***
 
@@ -83,7 +83,7 @@ Outliners
 - We tested model using a 66% and 80% training fit % and felt the 66% variable produced better results.
 
 - We decided to evaluate the ML models using MAPE (MAPE = abs(predicted value - test value) / abs(test value) * 100%)
-- 
+
 - Additional, Prophet ML model allows for daily seasonality. However, running the Prophet ML model using daily seaonality did not produce better MAPE results.
  
 **66% Training %, No Seasonaility** 
