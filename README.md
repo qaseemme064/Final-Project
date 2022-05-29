@@ -145,7 +145,8 @@ The first Dashboard will contain the Alert System. The user would be allow to ch
 
 <u>Dashboard #2</u>
 
-The second Dashboard will show the Participant Information. Adjusting the Patient ID will affect the data shown under Partient Information and also the Patient Chart. 
+The second Dashboard will show the Participant Information. Adjusting the Patient ID will affect the data shown under Partient Information and also the Patient Chart.
+
 ![Image of Participant_Information](/Images/Participant_Information.png)
 
 
