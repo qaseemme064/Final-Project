@@ -21,6 +21,32 @@ For this project we used a dataset found on kaggle which combines traditional li
 
 https://www.kaggle.com/datasets/vlbthambawita/pmdata-a-sports-logging-dataset
 
+<<<<<<< HEAD
+=======
+### **Database**
+
+We decided to use Heroku as our database and for hosting we used pgAdmin4 and connected heroku with pgAdmin4. Due to restrictions of rows which is 10000 rows, we had to drop couple of our participents data in order to get number of rows with in 10000 rows. 
+
+Due to 10000 rows restriction we used VIEW command in our Postgres SQL. 
+
+The schematic of the database tables will be:
+
+![QuickDBD-export](https://user-images.githubusercontent.com/96033163/170885676-ee1fde21-d67b-4b7b-bba1-590c3280c814.png)
+
+
+Below is the quick look of heroku summary
+
+![heroku](https://user-images.githubusercontent.com/96033163/170887403-c6bde6a1-fa00-4a6d-89e5-e7313f780a6e.png)
+
+
+Sample data will look as follows:
+
+![Screenshot 2022-05-14 094010](https://user-images.githubusercontent.com/96033163/168430057-99c1394a-c545-4461-a88c-46c78cf14a8f.png)
+
+Active Heart Rate dataset had multiple entries per day per participant. Since project is using a minimum timeframe of a day, created a view in database to display average active heart rates per day per participant.
+
+
+>>>>>>> 656fcd7 (added heroku summary)
 ### **Machine Learning**:
 
 We will use time series analysis in machine learning. The rationale is in the hope off helping health care professionals understand the underlying causes of trends or patterns over the time period. To this end, we investigated the following models:
