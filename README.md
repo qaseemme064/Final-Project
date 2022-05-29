@@ -87,15 +87,19 @@ Outliners
 - Additional, Prophet ML model allows for daily seasonality. However, running the Prophet ML model using daily seaonality did not produce better MAPE results.
  
 **66% Training %, No Seasonaility** 
+
 ![Image of 66 No Seasonaility](/Images/MAPE 66 No Seasonal.png)
 
 **66% Training %, Seasonaility** 
+
 ![Image of 66 Seasonaility](/Images/MAPE 66 Seasonal.png)
 
 **80% Training %, No Seasonaility** 
+
 ![Image of 80 No Seasonaility](/Images/MAPE 80 No Seasonal.png)
 
 **80% Training %, Seasonaility** 
+
 ![Image of 80 Seasonaility](/Images/MAPE 80 Seasonal.png)
 
 ***Reason for model choice and limitations***
