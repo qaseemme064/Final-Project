@@ -34,9 +34,6 @@ For this project we used a dataset found on kaggle which combines traditional li
 
 https://www.kaggle.com/datasets/vlbthambawita/pmdata-a-sports-logging-dataset
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 ### **Database**
 
 We decided to use Heroku as our database and for hosting we used pgAdmin4 and connected heroku with pgAdmin4. Due to restrictions of rows which is 10000 rows, we had to drop couple of our participents data in order to get number of rows with in 10000 rows. 
@@ -52,38 +49,6 @@ Below is the quick look of heroku summary
 
 ![heroku](https://user-images.githubusercontent.com/96033163/170887403-c6bde6a1-fa00-4a6d-89e5-e7313f780a6e.png)
 
-
-Sample data will look as follows:
-
-![Screenshot 2022-05-14 094010](https://user-images.githubusercontent.com/96033163/168430057-99c1394a-c545-4461-a88c-46c78cf14a8f.png)
-
-Active Heart Rate dataset had multiple entries per day per participant. Since project is using a minimum timeframe of a day, created a view in database to display average active heart rates per day per participant.
-
-
->>>>>>> 656fcd7 (added heroku summary)
-### **Machine Learning**:
-
-We will use time series analysis in machine learning. The rationale is in the hope off helping health care professionals understand the underlying causes of trends or patterns over the time period. To this end, we investigated the following models:
-
-ARIMA
-
-ARIMAX
-
-SARIMA
-
-and decided to use the ARIMA model in absence of seasonal factors (SARIMA) or external factors (ARIMAX) that would impact our predictions.
-
-
-### **Database**:
-=======
-### **Database**
->>>>>>> 96967e58af726b3ffaef8b60e0df9a892d482c28
-
-We decided to use PostgreSQL as the database for this project as the dataset will be structured and not be variable.
-
-The schematic of the database tables will be:
-
-![Image of Database_Structure](/Images/ERD_Diagram.png)
 
 Sample data will look as follows:
 
