@@ -8,9 +8,9 @@ https://docs.google.com/presentation/d/17q3Ww6542tbRnkE8Gic-3cj-i_6PWvZ0HmuZEd1y
 
 ### **Purpose**
 
-Wearable fitness tracker that record an individual's activity and personal health data (such as heart rate) offers the ability to healthcare professionals to remotely monitor a patient's health. Using machine learning, we hope to predict an individual's future health data thereby allowing preventative action to be taken early enough to correct health metrics that maybe trending towards an undesiable value.
+Wearable fitness tracker which records an individual's activity and personal health data (such as heart rate) offers the ability to healthcare professionals to remotely monitor a patient's health. Using machine learning, we would attempt to predict an individual's future health data thereby allowing preventative action to be taken early enough to correct health metrics that may trend towards undesiable values.
 
-This project :
+Our Strategy:
 
 - Uses data from activity trackers (such as Fitbit or Garmin) to measure participants personal data such as: calore intake, heart rate, steps, sleep, and activity over a defined period.
 - With this data, we would use machine learning to predict future values for these data streams for each participant.
