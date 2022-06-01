@@ -12,9 +12,9 @@ Wearable fitness tracker which records an individual's activity and personal hea
 
 Our Strategy:
 
-- Uses data from activity trackers (such as Fitbit or Garmin) to measure participants personal data such as: calore intake, heart rate, steps, sleep, and activity over a defined period.
-- With this data, we would use machine learning to predict future values for these data streams for each participant.
-- Our model will allow the user to graph a particiapnt's individual data streams.
+- Use data from activity trackers (such as Fitbit or Garmin) to measure participants personal data such as: calore intake, heart rate, steps, sleep, and activity over a defined period.
+- With this data, we would use machine learning to predict future values for these data streams per participant.
+- Our model will allow the user to graph a participant's data streams.
 - The user will be able to create filters that highlight individual participants.
 
 
