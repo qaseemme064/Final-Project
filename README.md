@@ -13,9 +13,10 @@ Wearable fitness tracker which records an individual's activity and personal hea
 Our Strategy:
 
 - Use data from activity trackers (such as Fitbit or Garmin) to measure participants personal data such as: calore intake, heart rate, steps, sleep, and activity over a defined period.
-- With this data, we would use machine learning to predict future values for these data streams per participant.
-- Our model will allow the user to graph a participant's data streams.
-- The user will be able to create filters that highlight individual participants.
+- Cleanup the data using techniques in Pandas
+- Use machine learning to predict future values for these data streams per participant.
+- Create an interactive dashboard which graphs a participant's data streams.
+- Allow users the ability to create filters that highlight individual participants health data.
 
 
 We hope to show that personal health data collected through activity trackers can be used to predict future health information about an individual which can be used to by health professionals in keeping their patients healthy.
