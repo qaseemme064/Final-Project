@@ -24,11 +24,6 @@ We hope to show that personal health data collected through activity trackers ca
 **Our hypothesis**:
 Wearable fitness tracker which captures salient metrics can be helpful in prolonging lifespan of individuals by alerting persons, health care professionals and insurance firms to future health issues.
 
-**Communication Protocol**: 
-We deployed contemporary communication tools to improve and maintain communication among team members. These include:
-•	Slack and what’s app to share ideas, information, and helpful links;
-•	Zoom to meet online during and outside office hours.
-
 ### **Data Sources**:
 
 For this project we used a dataset found on kaggle which combines traditional lifelogging with sports activity logging over a period of 5 months for 16 different individuals,
