@@ -22,7 +22,7 @@ Our Strategy:
 We hope to show that personal health data collected through activity trackers can be used to predict future health information about an individual which can be used to by health professionals in keeping their patients healthy.
 
 **Our hypothesis**:
-Wearable fitness tracker which captures salient metrics can be helpful in prolonging lifespan of individuals by alerting persons, health care professionals and insurance firms to future health issues.
+Wearable fitness tracker which captures salient metrics can be helpful in prolonging lifespan of individuals by alerting persons, health care professionals and insurance firms to future health concerns.
 
 ### **Data Sources**:
 
@@ -32,7 +32,7 @@ https://www.kaggle.com/datasets/vlbthambawita/pmdata-a-sports-logging-dataset
 
 ### **Database**
 
-We decided to use Heroku as our database and for hosting we used pgAdmin4 and connected heroku with pgAdmin4. Due to restrictions of rows which is 10000 rows, we had to drop couple of our participents data in order to get number of rows with in 10000 rows. 
+We decided to use Heroku as our database and for hosting we used PGAdmin4 and connected Heroku with PGAdmin4. Due to restrictions of rows which is 10000 rows, we had to drop couple of our participents data in order to get number of rows with in 10000 rows. 
 
 Due to 10000 rows restriction we used VIEW command in our Postgres SQL. 
 
