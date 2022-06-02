@@ -24,13 +24,36 @@ We hope to show that personal health data collected through activity trackers ca
 **Our hypothesis**:
 Wearable fitness tracker which captures salient metrics can be helpful in prolonging lifespan of individuals by alerting persons, health care professionals and insurance firms to future health concerns.
 
-**Our Technoque**
+**Our Technique**
 
 * We used Python in Pandas to clean up data
 * Use PDAdmin4 as open source management tool with PostgresSQL to prepare dashboatd
 * Trained and tested the data
 * Passed data through LGBM regression and Prophet models to determine best applicable model
 
+**Our Analytical process**
+* Conversion phase*
+*  converted data from CSS to CSv
+* Preprocess phase*
+*  cleaned data using techniques in pandas. This involved:
+*   dropping unneccessary data
+*   renaming columns of dataset
+*   removed duplicates
+*   removed null and some non-null values
+*   groupby dates per participant
+*   saved data to CSV per participant
+*   merged all partcipants per parameter into CSV 
+
+* EDA phase*
+*  created box and whisker plot to identify central tendency measures 
+
+* Storage phase*
+*  stored using Heroku database
+
+* Building dashboard
+*  moved data from Heroku to PGAdmin4
+*  Created ERD on Quick database
+* 
 
 ### **Data Sources**:
 
