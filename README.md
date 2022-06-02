@@ -50,10 +50,21 @@ Wearable fitness tracker which captures salient metrics can be helpful in prolon
 * Storage phase*
 *  stored using Heroku database
 
-* Building dashboard
-*  moved data from Heroku to PGAdmin4
+* Building Tables phase
+*  Moved data from Heroku to PGAdmin4
 *  Created ERD on Quick database
-* 
+*  created tables on PGAdmin using SQL
+*  imported merged parameters from local to Heroku Database using PGAdmin4
+
+* Machine Learning phase
+*  Data underwent a comparative analysis using 2 models: Prophet and LBM regression
+*  Data was trained and tested using different percentages
+*  Caculated Mean Absolute Percentage Erroe (MAPE)
+*  saved predicted values to CSV
+
+* Building Dashboard
+*  Used Tableau desktop to export data from Postgres to create Dashboard
+*  Develope and alert system and alert list using participant information
 
 ### **Data Sources**:
 
