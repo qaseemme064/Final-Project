@@ -31,10 +31,12 @@ Wearable fitness tracker which captures salient metrics can be helpful in prolon
 * Trained and tested the data
 * Passed data through LGBM regression and Prophet models to determine best applicable model
 
+**Our Analytical Process**
+
 ![image](https://user-images.githubusercontent.com/96435901/172024550-6dbe3971-8cad-4f51-a15f-ce26ab0a6d20.png)
 
 
-**Our Analytical process**
+
 * Conversion phase*
 *  converted data from CSS to CSv
 * Preprocess phase*
