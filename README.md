@@ -33,8 +33,7 @@ Wearable fitness tracker which captures salient metrics can be helpful in prolon
 
 **Our Analytical Process**
 
-![image](https://user-images.githubusercontent.com/96435901/172024550-6dbe3971-8cad-4f51-a15f-ce26ab0a6d20.png)
-
+![image](https://user-images.githubusercontent.com/96435901/172024805-58410e0a-65ab-476a-9159-534c4916165b.png)
 
 
 * Conversion phase*
