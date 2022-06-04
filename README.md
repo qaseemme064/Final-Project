@@ -23,16 +23,37 @@ We hope to show that personal health data collected through activity trackers ca
 **Our hypothesis**:
 Wearable fitness tracker which captures salient metrics can be helpful to prolonging lifespan of individuals by alerting persons, health care professionals and insurance firms to future health issues.
 
-**Communication Protocol**: 
-We deployed contemporary communication tools to improve and maintain communication among team members. These include:
-•	Slack and what’s app to share ideas, information, and helpful links;
-•	Zoom to meet online during and outside office hours.
 
 ### **Data Sources**:
 
 For this project we used a dataset found on kaggle which combines traditional lifelogging with sports activity logging over a period of 5 months for 16 different individuals,
 
 https://www.kaggle.com/datasets/vlbthambawita/pmdata-a-sports-logging-dataset
+
+### **Tools & Technology**:
+
+Jupyter Notebook: Coding of Machine Learning and cleaning of the data. 
+Prophet Machine Learning and LGBM Regressor: These were the specific machine learning models that we used to train and test the data, as well as the predictions. 
+Heroku: Where the database is stored.  
+pgAdmin4: Access to the SQL database.  
+Tableau Desktop: Used for Data Exploration and Dashboard.
+
+### **Data Exploration**
+
+We loaded the original data from the Kaggle into Tableau. For each of the metrics, we created a box plot for each of the participant. We observed some zero values for some of the metrics for individual participants, we made the decision to remove these values as we felt this were null values or the results of participants not taking the readings on these days. 
+
+![LBGM_Calories](https://user-images.githubusercontent.com/96031520/171970367-32d87c6b-c924-4cae-8107-b3afd1ab850f.jpg)
+
+![LGBM_Active_Duration](https://user-images.githubusercontent.com/96031520/171970386-b81bf3fd-0f7b-459a-8d49-2ea3a51697a1.jpg)
+
+![LGBM_Active_Heart_Heart](https://user-images.githubusercontent.com/96031520/171970390-2d249f90-bdb4-4b75-9ef8-54673c9b4110.jpg)
+
+![LGBM_Distance](https://user-images.githubusercontent.com/96031520/171970392-cc8413d6-0ea4-474f-a2ac-366728ea2983.jpg)
+
+![LGBM_Resting_Heart](https://user-images.githubusercontent.com/96031520/171970400-68ef4c4e-5390-4237-ace7-d370f1b22277.jpg)
+
+![LGBM_Steps](https://user-images.githubusercontent.com/96031520/171970403-7f7eaacd-dad2-497c-afbf-fd14d7deed09.jpg)
+
 
 ### **Database**
 
@@ -84,7 +105,7 @@ Outliners
 
 - We used a univariable time series model so there was no feature engineering or feature selection necessary.
 
-***How data was split into training and testing***
+***How data was split into training and testing*** (NEED TO BE EDITED)
 
 - We divided dataset into training and testing data using a training % variable.
 - This allowed us to change training % variable to see if this caused a better model fit.
@@ -96,19 +117,7 @@ Outliners
  
 **66% Training %, No Seasonaility** 
 
-![Image of 66 No Seasonaility](/Images/MAPE_66_No_Seasonal.png)
-
-**66% Training %, Seasonaility** 
-
-![Image of 66 Seasonaility](/Images/MAPE_66_Seasonal.png)
-
-**80% Training %, No Seasonaility** 
-
-![Image of 80 No Seasonaility](/Images/MAPE_80_No_Seasonal.png)
-
-**80% Training %, Seasonaility** 
-
-![Image of 80 Seasonaility](/Images/MAPE_80_Seasonal.png)
+![Image of 66 No Seasonaility](/Images/MAPE_No_Zeroes_Seasonal_66.png)
 
 ***Reason for model choice and limitations***
 
