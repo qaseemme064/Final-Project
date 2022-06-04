@@ -32,11 +32,11 @@ https://www.kaggle.com/datasets/vlbthambawita/pmdata-a-sports-logging-dataset
 
 ### **Tools & Technology**:
 
-Jupyter Notebook: Coding of Machine Learning and cleaning of the data. 
-Prophet Machine Learning and LGBM Regressor: These were the specific machine learning models that we used to train and test the data, as well as the predictions. 
-Heroku: Where the database is stored.  
-pgAdmin4: Access to the SQL database.  
-Tableau Desktop: Used for Data Exploration and Dashboard.
+- Jupyter Notebook: Coding of Machine Learning and cleaning of the data. 
+- Prophet Machine Learning and LGBM Regressor: These were the specific machine learning models that we used to train and test the data, as well as the predictions. 
+- Heroku: Where the database is stored.  
+- pgAdmin4: Access to the SQL database.  
+- Tableau Desktop: Used for Data Exploration and Dashboard.
 
 ### **Data Exploration**
 
@@ -127,6 +127,8 @@ Outliners
 - Advantages: Prophet model requires less hyperparameter tuning as it is specifically designed to detect patterns in business time series.
 
 ### **Dashboard**
+
+Please [CLICK HERE](https://public.tableau.com/app/profile/kelly5613/viz/Final-Project_16541248140270/Final_Dashboard?publish=yes) for the interactive Dashboard.
 
 The Dashboard will have 3 main parts:
 
