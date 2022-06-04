@@ -2,8 +2,7 @@
 
 **Presentation Outline** ( Work in progress)
 
-https://docs.google.com/presentation/d/17q3Ww6542tbRnkE8Gic-3cj-i_6PWvZ0HmuZEd1ymac/edit?usp=sharing
-
+Please [CLICK HERE](https://docs.google.com/presentation/d/17q3Ww6542tbRnkE8Gic-3cj-i_6PWvZ0HmuZEd1ymac/edit?usp=sharing) for the presentation google sheets.
 
 
 ### **Purpose**
@@ -28,7 +27,8 @@ Wearable fitness tracker which captures salient metrics can be helpful to prolon
 
 For this project we used a dataset found on kaggle which combines traditional lifelogging with sports activity logging over a period of 5 months for 16 different individuals,
 
-https://www.kaggle.com/datasets/vlbthambawita/pmdata-a-sports-logging-dataset
+Please [CLICK HERE](https://www.kaggle.com/datasets/vlbthambawita/pmdata-a-sports-logging-dataset) for the Kaggle data.
+
 
 ### **Tools & Technology**:
 
