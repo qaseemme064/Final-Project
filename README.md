@@ -30,9 +30,7 @@ Wearable fitness tracker which captures salient metrics can be helpful in prolon
 * Passed data through LGBM regression and Prophet models to determine best applicable model
 
 **Our Analytical Process**
-
-<img src = "https://user-images.githubusercontent.com/96435901/172024805-58410e0a-65ab-476a-9159-534c4916165b.png" width='800'>
-
+![Analytical_Process](https://user-images.githubusercontent.com/96031520/172061669-45dc777b-445b-4f5c-a852-62eb12a279c5.png)
 
 ### **Data Sources**:
 
