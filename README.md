@@ -177,7 +177,7 @@ Outliners
 
 ### **Dashboard**
 
-Please [CLICK HERE](https://public.tableau.com/app/profile/kelly5613/viz/Final-Project_16541248140270/Dashboard4?publish=yes) for the interactive Dashboard.
+Please [CLICK HERE](https://public.tableau.com/app/profile/kelly5613/viz/Final-Project_16541248140270/Dashboard?publish=yes) for the interactive Dashboard.
 
 The Dashboard will have 3 main parts:
 
@@ -210,7 +210,7 @@ The first part of the dashboard will contain the Alert System. The user would be
 
 The second part of the dashboard will show the Participant Information. Adjusting the Patient ID will affect the data shown under Partient Information and also the Patient Chart.
 
-![PatientInformation](https://user-images.githubusercontent.com/96031520/172058868-37aaef0b-2314-4351-b2db-35e8daa74daa.png)
+![PatientInformation](https://user-images.githubusercontent.com/96031520/172059418-d20a6bde-43af-4845-a692-813b98fd235f.png)
 
 ### Footnote
 https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc
