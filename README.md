@@ -24,8 +24,8 @@ Wearable fitness tracker which captures salient metrics can be helpful in prolon
 
 **Our Technique**
 
-* We used Python in Pandas to clean up data
-* Use PDAdmin4 as open source management tool with PostgresSQL to prepare dashboatd
+* We used Pandas(Python) to clean up data
+* Use PDAdmin4 as open source management tool with PostgresSQL to prepare dashboard in Tableau
 * Trained and tested the data
 * Passed data through LGBM regression and Prophet models to determine best applicable model
 
