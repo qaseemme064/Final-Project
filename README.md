@@ -206,11 +206,11 @@ Tableau2021.3 will be used to create the dashboard as we will be importing the d
 
 The first part of the dashboard will contain the Alert System. The user would be allow to change the ranges of the filtered values of the actual values or the predictions to only show the patients, who have exceed values and hence Alerting the user which patients will need to be monitored. 
 
-![AlertSystem](https://user-images.githubusercontent.com/96031520/172058867-1f8573dc-c61b-4b50-817d-83dd7cf145e8.png)
+![Alert_System](https://user-images.githubusercontent.com/96031520/172059640-15bb43e5-452c-4f65-ac80-7fc6cc096ce1.png)
 
 The second part of the dashboard will show the Participant Information. Adjusting the Patient ID will affect the data shown under Partient Information and also the Patient Chart.
 
-![PatientInformation](https://user-images.githubusercontent.com/96031520/172059418-d20a6bde-43af-4845-a692-813b98fd235f.png)
+![Patient_Information](https://user-images.githubusercontent.com/96031520/172059653-1c8fd155-ae27-4dc2-aff6-271550002c0d.png)
 
 ### Footnote
 https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc
