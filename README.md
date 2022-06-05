@@ -1,4 +1,4 @@
-# **Final Project**
+# **PREDICTION USING FITNESS TRACKER**
 
 **Presentation Outline** ( Work in progress)
 
