@@ -127,7 +127,7 @@ Outliners
  
 **66% Training %, No Seasonaility** 
 
-![Image of 66 No Seasonaility](/Images/MAPE_No_Zeroes_Seasonal_66.png)
+![MAPE_No_Zeroes_Seasonal_66](https://user-images.githubusercontent.com/96033163/172054080-03f5e474-e24c-4a5d-a0ca-0c2ab5e7597e.png)
 
 ***Reason for model choice and limitations***
 
@@ -142,19 +142,24 @@ Please [CLICK HERE](https://public.tableau.com/app/profile/kelly5613/viz/Final-P
 
 The Dashboard will have 3 main parts:
 
-![Image of Dashboard_Mockup](/Images/Dashboard_Mockup.png)
+![Dashboard_Mockup](https://user-images.githubusercontent.com/96033163/172054102-ef960bd1-7695-42a2-af4e-c7f6a9b6f4cb.png)
+
 
 1) The **Alert** section will allow the user to select values to filter the patient data and display the patients that exceed the filter values
 
-![Image of Dashboard_Alert](/Images/Dashboard_Alert.png)
+![Dashboard_Alert](https://user-images.githubusercontent.com/96033163/172054117-399a3d63-9465-45d1-9d85-785dd3feac32.png)
+
 
 2) The **Patient Data** section will allow the user to select an individual patient and display specific static data on the patient:
 
-![Image of Dashboard_Patient_Data](/Images/Dashboard_Patient_Data.png)
+
+![Dashboard_Patient_Data](https://user-images.githubusercontent.com/96033163/172054136-cc58c2f5-8af7-416a-9259-f4815b7a73a5.png)
+
 
 3) The **Patient Chart** section will display the collected and predicted future patient data over time in a chart. Users will be able to select which data stream(s) to include in the chart.
 
-![Image of Dashboard_Patient_Chart](/Images/Dashboard_Patient_Chart.png)
+![Dashboard_Patient_Chart](https://user-images.githubusercontent.com/96033163/172054145-223ae37b-3471-4a09-8399-892ee96b6192.png)
+
 
 Tableau2021.3 will be used to create the dashboard as we will be importing the data from PostgreSQL. The Story will contain two Dashboards. 
 
@@ -162,12 +167,15 @@ Tableau2021.3 will be used to create the dashboard as we will be importing the d
 
 The first Dashboard will contain the Alert System. The user would be allow to change the ranges of the filtered values to only show the patients, who have exceed values and hence Alerting the user which patients will need to be monitored. 
 
-![Image of Alert_system](/Images/Alert_system.png)
+![Alert_system](https://user-images.githubusercontent.com/96033163/172054170-9d78926a-4218-46a1-84d8-0bb48c3fa247.png)
+
 
 <u>Dashboard #2</u>
 
 The second Dashboard will show the Participant Information. Adjusting the Patient ID will affect the data shown under Partient Information and also the Patient Chart.
 
-![Image of Participant_Information](/Images/Participant_Information.png)
+
+![Participant_Information](https://user-images.githubusercontent.com/96033163/172054173-3a7a91c3-cf1f-4a52-8dc1-87ef15380b19.png)
+
 
 
