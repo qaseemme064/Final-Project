@@ -4,24 +4,34 @@
 
 Please [CLICK HERE](https://docs.google.com/presentation/d/17q3Ww6542tbRnkE8Gic-3cj-i_6PWvZ0HmuZEd1ymac/edit?usp=sharing) for the presentation google sheets.
 
-
 ### **Purpose**
 
-Wearable fitness tracker that record an individual's activity and personal health data (such as heart rate) offers the ability to healthcare professionals to remotely monitor a patient's health. Using machine learning, we hope to predict an individual's future health data thereby allowing preventative action to be taken early enough to correct health metrics that maybe trending towards an undesiable value.
+Wearable fitness tracker which records an individual's activity and personal health data (such as heart rate) offers the ability to healthcare professionals to remotely monitor a patient's health. Using machine learning, we would attempt to predict an individual's future health data thereby allowing preventative action to be taken early enough to correct health metrics that may trend towards undesiable values.
 
-This project :
+Our Strategy:
 
-- Uses data from activity trackers (such as Fitbit or Garmin) to measure participants personal data such as: calore intake, heart rate, steps, sleep, and activity over a defined period.
-- With this data, we would use machine learning to predict future values for these data streams for each participant.
-- Our model will allow the user to graph a particiapnt's individual data streams.
-- The user will be able to create filters that highlight individual participants.
+- Use data from activity trackers (such as Fitbit or Garmin) to measure participants personal data such as: calore intake, heart rate, steps, sleep, and activity over a defined period.
+- Cleanup the data using techniques in Pandas
+- Use machine learning to predict future values for these data streams per participant.
+- Create an interactive dashboard which graphs a participant's data streams.
+- Allow users the ability to create filters that highlight individual participants health data.
 
 
 We hope to show that personal health data collected through activity trackers can be used to predict future health information about an individual which can be used to by health professionals in keeping their patients healthy.
 
 **Our hypothesis**:
-Wearable fitness tracker which captures salient metrics can be helpful to prolonging lifespan of individuals by alerting persons, health care professionals and insurance firms to future health issues.
+Wearable fitness tracker which captures salient metrics can be helpful in prolonging lifespan of individuals by alerting persons, health care professionals and insurance firms to future health concerns.
 
+**Our Technique**
+
+* We used Python in Pandas to clean up data
+* Use PDAdmin4 as open source management tool with PostgresSQL to prepare dashboatd
+* Trained and tested the data
+* Passed data through LGBM regression and Prophet models to determine best applicable model
+
+**Our Analytical Process**
+
+![image](https://user-images.githubusercontent.com/96435901/172024805-58410e0a-65ab-476a-9159-534c4916165b.png)
 
 ### **Data Sources**:
 
