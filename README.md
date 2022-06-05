@@ -200,22 +200,17 @@ The Dashboard will have 3 main parts:
 ![Dashboard_Patient_Chart](https://user-images.githubusercontent.com/96033163/172054145-223ae37b-3471-4a09-8399-892ee96b6192.png)
 
 
-Tableau2021.3 will be used to create the dashboard as we will be importing the data from PostgreSQL. The Story will contain two Dashboards. 
+Tableau2021.3 will be used to create the dashboard as we will be importing the data from PostgreSQL.
 
-<u>Dashboard #1</u>
+***Patient Health Dashboard***
 
-The first Dashboard will contain the Alert System. The user would be allow to change the ranges of the filtered values to only show the patients, who have exceed values and hence Alerting the user which patients will need to be monitored. 
+The first part of the dashboard will contain the Alert System. The user would be allow to change the ranges of the filtered values of the actual values or the predictions to only show the patients, who have exceed values and hence Alerting the user which patients will need to be monitored. 
 
-![Alert_system](https://user-images.githubusercontent.com/96033163/172054170-9d78926a-4218-46a1-84d8-0bb48c3fa247.png)
+![AlertSystem](https://user-images.githubusercontent.com/96031520/172058867-1f8573dc-c61b-4b50-817d-83dd7cf145e8.png)
 
+The second part of the dashboard will show the Participant Information. Adjusting the Patient ID will affect the data shown under Partient Information and also the Patient Chart.
 
-<u>Dashboard #2</u>
-
-The second Dashboard will show the Participant Information. Adjusting the Patient ID will affect the data shown under Partient Information and also the Patient Chart.
-
-
-![Participant_Information](https://user-images.githubusercontent.com/96033163/172054173-3a7a91c3-cf1f-4a52-8dc1-87ef15380b19.png)
-
+![PatientInformation](https://user-images.githubusercontent.com/96031520/172058868-37aaef0b-2314-4351-b2db-35e8daa74daa.png)
 
 ### Footnote
 https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc
