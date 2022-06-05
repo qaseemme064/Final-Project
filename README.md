@@ -89,9 +89,10 @@ Sample data will look as follows:
 Active Heart Rate dataset had multiple entries per day per participant. Since project is using a minimum timeframe of a day, created a view in database to display average active heart rates per day per participant.
 
 
-### **Machine Learning**:
+## **Machine Learning**:
 
-We use time series analysis in machine learning. The rationale is in the hope off helping health care professionals understand the underlying causes of trends or patterns over the time period. To this end, we investigated the following models:
+## **Arima Vs Prophet Vs LGBMRegressor**
+We use time series analysis in machine learning. The rationale is in the hope of helping health care professionals understand the underlying causes of trends or patterns over the time period. To this end, we investigated the following models:
 
 ARIMA
 
@@ -99,7 +100,15 @@ ARIMAX
 
 SARIMA
 
-and initially decided to use the ARIMA model in absence of seasonal factors (SARIMA) or external factors (ARIMAX) that would impact our predictions. As each participant (total number of 15 participants) and each dataset (7 different datasets) would require a machine learning model we would need a total of 105 models programmed. Since ARIMA models have to be fit individually with After experiencing a couple of glitches in handling null values for a couple of participants and forecasting, we investigated another model - PROPHET. Prophet model allowed for fit to automated, so we choose to proceed with Prophet.
+and initially decided to use the ARIMA model in absence of seasonal factors (SARIMA) or external factors (ARIMAX) that would impact our predictions. As each participant (total number of 15 participants) and each dataset (7 different datasets) would require a machine learning model we would need a total of 105 models programmed. Since ARIMA models have to be fit individually, in a production environment this would be combersome for users to accomplish as mode actaul data is collected and models would need to be refit. Therefore, we investigated another model - PROPHET. The Prophet model allowed for fit to automated, however, the resulting MAPE calculations were not great. Next we examined a third machine learning model - Light Gradient Boosting Model Regressor (LGBM) - which also allowed for the model fit to be automated and the LGBM model produced superior MAPE results. In the end, we choose to proceed with LGBM Regressor.
+
+# **LGBM Regressor Model**
+
+- LGBM is a regression tree model that grows tree vertically while other algorithm grows trees horizontally meaning that LightGBM grows tree leaf-wise while other algorithm grows level-wise 
+
+![leafwise tree](https://user-images.githubusercontent.com/96033163/172056497-1367b7e5-6910-4002-a1f5-a8876774627a.png)
+
+![level wise tree](https://user-images.githubusercontent.com/96033163/172056526-203ebc1f-259e-49c5-a087-93ae719ae46b.png)
 
 
 ***Preliminary Data preprocessing***
@@ -110,13 +119,42 @@ Trends
 
 Outliners
 
-- Using charts, we examined the dataset for unusual values. There appear to be outliers and/or zero values in some data streams. We’ve decided to keep the outliers and zero values in the dataset used for predictions as we felt these would be normal occurrences in an individual’s lifestyle.
+- Using charts, we examined the dataset for unusual values. There appear to be outliers and/or zero values in some data streams. We’ve decided to keep the outliers but remove the zero values from all the dataset used for predictions as we felt these were either null values of a result of participants not tracking data for these days.
 
 ***Preliminary feature engineering***
 
 - We used a univariable time series model so there was no feature engineering or feature selection necessary.
 
-***How data was split into training and testing*** (NEED TO BE EDITED)
+***How data was split into training and testing***
+
+- LGBM model allows for data to be trainged according to time periods.
+- we had hourly time periods in the original datasets, so we used hourly data to traing the LGBM model
+- the training data was all data up to the last 7 days of the original dataset
+- the testing data was the last 7 days from the original dataset.
+
+- We decided to evaluate the ML models using MAPE (MAPE = abs(predicted value - test value) / abs(test value) * 100%)
+
+**LGBM Model Machine Learning Model MAPE** 
+
+![LGBM_MAPE](https://user-images.githubusercontent.com/96033163/172055918-e5a219f2-820b-47d9-b71f-54f143bc57ce.png)
+
+# **Prophet Model**
+
+***Preliminary Data preprocessing***
+
+Trends
+- Using charts we examined the data sets for trends.
+- There does not seem to be a trend in the 7 data streams.
+
+Outliners
+
+- Using charts, we examined the dataset for unusual values. There appear to be outliers and/or zero values in some data streams. We’ve decided to keep the outliers but remove the zero values from all the dataset used for predictions as we felt these were either null values of a result of participants not tracking data for these days.
+
+***Preliminary feature engineering***
+
+- We used a univariable time series model so there was no feature engineering or feature selection necessary.
+
+***How data was split into training and testing***
 
 - We divided dataset into training and testing data using a training % variable.
 - This allowed us to change training % variable to see if this caused a better model fit.
@@ -126,20 +164,20 @@ Outliners
 
 - Additional, Prophet ML model allows for daily seasonality. However, running the Prophet ML model using daily seaonality did not produce better MAPE results.
  
-**66% Training %, No Seasonaility** 
+**Prophet Machine Learning Model MAPE** 
 
 ![MAPE_No_Zeroes_Seasonal_66](https://user-images.githubusercontent.com/96033163/172054080-03f5e474-e24c-4a5d-a0ca-0c2ab5e7597e.png)
 
 ***Reason for model choice and limitations***
 
-- We choose the Prophet ML model due to the number of ML models that we needed to fit and the easy of use of the Prophet ML model.
+- We choose the LGBM model due to the number of ML models that we needed to fit and the easy of use of the LGBM model and its superior MAPE results over the Prophet ML model.
 - AMIRA models require additional variable input by user which given the number of models which would not be pratical for this project.
-- Limititations: Prophet model was developed by Facebook business time series prediction. As such, in prediciting non business data, it can lead to higher error rates.
-- Advantages: Prophet model requires less hyperparameter tuning as it is specifically designed to detect patterns in business time series.
+- Limititations: Based on research, the LGBM model should have more than 10,000 data points to provide suitable predictions. 
+- Advantages: LGBM model requires less hyperparameter tuning as it is specifically designed to detect patterns in business time series.
 
 ### **Dashboard**
 
-Please [CLICK HERE](https://public.tableau.com/app/profile/kelly5613/viz/Final-Project_16541248140270/Final_Dashboard?publish=yes) for the interactive Dashboard.
+Please [CLICK HERE](https://public.tableau.com/app/profile/kelly5613/viz/Final-Project_16541248140270/Dashboard4?publish=yes) for the interactive Dashboard.
 
 The Dashboard will have 3 main parts:
 
@@ -179,4 +217,6 @@ The second Dashboard will show the Participant Information. Adjusting the Patien
 ![Participant_Information](https://user-images.githubusercontent.com/96033163/172054173-3a7a91c3-cf1f-4a52-8dc1-87ef15380b19.png)
 
 
+### Footnote
+https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc
 
