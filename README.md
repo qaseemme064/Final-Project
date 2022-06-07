@@ -172,6 +172,7 @@ Outliners
 - AMIRA models require additional variable input by user which given the number of models which would not be pratical for this project.
 - Limititations: Based on research, the LGBM model should have more than 10,000 data points to provide suitable predictions. 
 - Advantages: LGBM model requires less hyperparameter tuning as it is specifically designed to detect patterns in business time series.
+- Confusion matrix and accuracy score : As our model is regression model, we can not calculate confusion matrix and accuracy score as this can only be done in classification models 
 
 ### **Dashboard**
 
