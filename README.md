@@ -20,7 +20,7 @@ Our Strategy:
 We hope to show that personal health data collected through activity trackers can be used to predict future health information about an individual which can be used to by health professionals in keeping their patients healthy.
 
 **Our hypothesis**:
-Wearable fitness tracker which captures salient metrics can be helpful in prolonging lifespan of individuals by alerting persons, health care professionals and insurance firms to future health concerns.
+Can we use mobile health trackers to predict future health data paramters for individuals so that proactive action can be taken if the data paramter falls outside certain boundaries.
 
 **Our Technique**
 
