@@ -207,7 +207,7 @@ Tableau2021.3 will be used to create the dashboard as we will be importing the d
 
 The first part of the dashboard will contain the Alert System. The user would be allow to change the ranges of the filtered values of the actual values or the predictions to only show the patients, who have exceed values and hence Alerting the user which patients will need to be monitored. 
 
-![Alert_System](https://user-images.githubusercontent.com/96033163/172513779-e124393e-8d35-4948-84dc-e84c1b3d0814.png)
+![Alert_System](https://user-images.githubusercontent.com/96031520/172517623-8ddd9ed0-9466-4859-afbc-13148d77c73e.png)
 
 The second part of the dashboard will show the Participant Information. Adjusting the Patient ID will affect the data shown under Partient Information and also the Patient Chart.
 
