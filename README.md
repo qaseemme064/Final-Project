@@ -1,6 +1,6 @@
 # **PREDICTION USING FITNESS TRACKER**
 
-**Presentation Outline** ( Work in progress)
+**Presentation Outline** 
 
 Please [CLICK HERE](https://docs.google.com/presentation/d/1t38kgt7l1nMugx77n7lESWG77nfVg8KnyfTEGn_XX1Q/edit#slide=id.p4) for the presentation google sheets.
 
