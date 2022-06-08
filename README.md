@@ -205,12 +205,17 @@ Tableau2021.3 will be used to create the dashboard as we will be importing the d
 
 The first part of the dashboard will contain the Alert System. The user would be allow to change the ranges of the filtered values of the actual values or the predictions to only show the patients, who have exceed values and hence Alerting the user which patients will need to be monitored. 
 
-![Alert_System](https://user-images.githubusercontent.com/96031520/172059640-15bb43e5-452c-4f65-ac80-7fc6cc096ce1.png)
+![Alert_System](https://user-images.githubusercontent.com/96033163/172513779-e124393e-8d35-4948-84dc-e84c1b3d0814.png)
 
 The second part of the dashboard will show the Participant Information. Adjusting the Patient ID will affect the data shown under Partient Information and also the Patient Chart.
 
-![Patient_Information](https://user-images.githubusercontent.com/96031520/172059653-1c8fd155-ae27-4dc2-aff6-271550002c0d.png)
+![Patient_Information](https://user-images.githubusercontent.com/96033163/172513816-b754cee8-7f24-4ab8-8474-9eb8b719c24b.png)
 
+![chart1](https://user-images.githubusercontent.com/96033163/172513909-01922f15-e348-47af-9c52-b85131702e4e.png)
+
+![chart2](https://user-images.githubusercontent.com/96033163/172513926-b506fdf8-6640-45e2-a7b1-7282edcf5901.png)
+
+![chart3](https://user-images.githubusercontent.com/96033163/172513944-077003cb-3980-4750-822d-a2f21497a098.png)
 ### Footnote
 https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc
 
