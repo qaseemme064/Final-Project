@@ -90,7 +90,7 @@ Active Heart Rate dataset had multiple entries per day per participant. Since pr
 ## **Machine Learning**:
 
 ## **Arima Vs Prophet Vs LGBMRegressor**
-We use time series analysis in machine learning. The rationale is in the hope of helping health care professionals understand the underlying causes of trends or patterns over the time period. To this end, we investigated the following models:
+We used time series analysis in machine learning. The rationale is in the hope of helping health care professionals understand the underlying causes of trends or patterns over the time period. To this end, we investigated the following models:
 
 ARIMA
 
