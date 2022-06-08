@@ -1364,10 +1364,10 @@
       </datasource-dependencies>
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='97678' id='30' param='horz' type-v2='layout-flow' w='98812' x='594' y='1161'>
-            <zone h='97678' id='27' param='horz' type-v2='layout-flow' w='86934' x='594' y='1161' />
-            <zone fixed-size='160' h='97678' id='29' is-fixed='true' param='vert' type-v2='layout-flow' w='11878' x='87528' y='1161'>
-              <zone h='7547' id='32' name='Patient Graph' param='[federated.11thue20oel8n415yfglq09lwv2g].[:Measure Names]' type-v2='highlighter' w='11878' x='87528' y='1161'>
+          <zone h='97846' id='30' param='horz' type-v2='layout-flow' w='98838' x='581' y='1077'>
+            <zone h='97846' id='27' param='horz' type-v2='layout-flow' w='87210' x='581' y='1077' />
+            <zone fixed-size='160' h='97846' id='29' is-fixed='true' param='vert' type-v2='layout-flow' w='11628' x='87791' y='1077'>
+              <zone h='6999' id='32' name='Patient Graph' param='[federated.11thue20oel8n415yfglq09lwv2g].[:Measure Names]' type-v2='highlighter' w='11628' x='87791' y='1077'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1448,7 +1448,7 @@
     </dashboard>
   </dashboards>
   <windows source-height='30'>
-    <window class='worksheet' name='Averages '>
+    <window class='worksheet' maximized='true' name='Averages '>
       <cards>
         <edge name='left'>
           <strip size='196'>
@@ -1570,7 +1570,7 @@
       <active id='-1' />
       <simple-id uuid='{6E342337-685B-44E9-A4AF-99FAB5B77F44}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 2'>
+    <window class='dashboard' name='Dashboard 2'>
       <viewpoints>
         <viewpoint name='Participant Information' />
         <viewpoint name='Patient Chart' />
