@@ -19,10 +19,10 @@ Our Strategy:
 - Allow users the ability to create filters that highlight individual participants health data.
 
 
-We hope to show that personal health data collected through activity trackers can be used to predict future health information about an individual which can be used to by health professionals in keeping their patients healthy.
+We hope to show that personal health data collected through activity trackers can be used to predict future health information about an individual which can be used by health professionals in keeping their patients healthy.
 
 **Our hypothesis**:
-Mobile health trackers can be used to predict future health data parameters for individuals so that proactive action may be taken if the data parameter falls outside certain boundaries
+Mobile health trackers can be used to predict future health data parameters for individuals so that proactive action may be taken if the data parameter falls outside certain boundaries.
 
 **Our Technique**
 
