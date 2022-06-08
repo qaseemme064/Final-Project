@@ -2,7 +2,9 @@
 
 **Presentation Outline** ( Work in progress)
 
-Please [CLICK HERE](https://docs.google.com/presentation/d/17q3Ww6542tbRnkE8Gic-3cj-i_6PWvZ0HmuZEd1ymac/edit?usp=sharing) for the presentation google sheets.
+Please [CLICK HERE](https://docs.google.com/presentation/d/1t38kgt7l1nMugx77n7lESWG77nfVg8KnyfTEGn_XX1Q/edit#slide=id.p4) for the presentation google sheets.
+
+
 
 ### **Purpose**
 
