@@ -51,7 +51,7 @@ Please [CLICK HERE](https://www.kaggle.com/datasets/vlbthambawita/pmdata-a-sport
 
 ### **Data Exploration**
 
-We loaded the original data from the Kaggle into Tableau. For each of the metrics, we created a box plot for each of the participant. We observed some zero values for some of the metrics for individual participants, we made the decision to remove these values as we felt this were null values or the results of participants not taking the readings on these days. 
+Fpr each parameter, we loaded the original data from the Kaggle into Tableau and created a box plot for each of the participants. We observed some zero values for some of the metrics for individual participants and made the decision to remove these values. Our rationale being that these were null values or the results of participants not taking readings on those days. 
 
 ![LBGM_Calories](https://user-images.githubusercontent.com/96031520/171970367-32d87c6b-c924-4cae-8107-b3afd1ab850f.jpg)
 
