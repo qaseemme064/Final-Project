@@ -98,7 +98,7 @@ ARIMAX
 
 SARIMA
 
-and initially decided to use the ARIMA model in absence of seasonal factors (SARIMA) or external factors (ARIMAX) that would impact our predictions. As each participant (total number of 15 participants) and each dataset (7 different datasets) would require a machine learning model we would need a total of 105 models programmed. Since ARIMA models have to be fit individually, in a production environment this would be combersome for users to accomplish as mode actaul data is collected and models would need to be refit. Therefore, we investigated another model - PROPHET. The Prophet model allowed for fit to automated, however, the resulting MAPE calculations were not great. Next we examined a third machine learning model - Light Gradient Boosting Model Regressor (LGBM) - which also allowed for the model fit to be automated and the LGBM model produced superior MAPE results. In the end, we choose to proceed with LGBM Regressor.
+and initially decided to use the ARIMA model in absence of seasonal factors (SARIMA) or external factors (ARIMAX) that would impact our predictions. As each participant (total number of 15 participants) and each dataset (7 different datasets) would require a machine learning model we programmed a total of 105 models. Since ARIMA models have to be fit individually, in a production environment this would be combersome for users to accomplish as actaul data is collected and models would need to be refit. Therefore, we investigated another model - PROPHET. The Prophet model allowed for fit to automated, however, the resulting MAPE calculations were not great. Next, we examined a third machine learning model - Light Gradient Boosting Model Regressor (LGBM) - which also allowed for the model fit to be automated. The LGBM model produced superior MAPE results. We chose to proceed with LGBM Regressor.
 
 # **LGBM Regressor Model**
 
@@ -117,7 +117,7 @@ Trends
 
 Outliners
 
-- Using charts, we examined the dataset for unusual values. There appear to be outliers and/or zero values in some data streams. We’ve decided to keep the outliers but remove the zero values from all the dataset used for predictions as we felt these were either null values of a result of participants not tracking data for these days.
+- Using charts, we examined the dataset for unusual values. There appear to be outliers and/or zero values in some data streams. We decided to keep the outliers but remove the zero values from all the dataset used for predictions as we felt these were either null values of a result of participants not tracking data for these days.
 
 ***Preliminary feature engineering***
 
@@ -125,10 +125,10 @@ Outliners
 
 ***How data was split into training and testing***
 
-- LGBM model allows for data to be trainged according to time periods.
-- we had hourly time periods in the original datasets, so we used hourly data to traing the LGBM model
-- the training data was all data up to the last 7 days of the original dataset
-- the testing data was the last 7 days from the original dataset.
+- LGBM model allows for data to be trained according to time periods.
+- we had hourly time periods in the original datasets, so we used hourly data to train the LGBM model
+- Training data was all data up to the last 7 days of the original dataset
+- Testing data was the last 7 days from the original dataset.
 
 - We decided to evaluate the ML models using MAPE (MAPE = abs(predicted value - test value) / abs(test value) * 100%)
 
@@ -168,7 +168,7 @@ Outliners
 
 ***Reason for model choice and limitations***
 
-- We choose the LGBM model due to the number of ML models that we needed to fit and the easy of use of the LGBM model and its superior MAPE results over the Prophet ML model.
+- We chose the LGBM model due to the number of ML models that we needed to fit and the easy of use of the LGBM model and its superior MAPE results over the Prophet ML model.
 - AMIRA models require additional variable input by user which given the number of models which would not be pratical for this project.
 - Limititations: Based on research, the LGBM model should have more than 10,000 data points to provide suitable predictions. 
 - Advantages: LGBM model requires less hyperparameter tuning as it is specifically designed to detect patterns in business time series.
