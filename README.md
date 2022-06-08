@@ -27,9 +27,9 @@ Mobile health trackers can be used to predict future health data parameters for 
 **Our Technique**
 
 * We used Pandas(Python) to clean up data
-* Use PDAdmin4 as open source management tool with PostgresSQL to prepare dashboard in Tableau
+* Used PDAdmin4 as open source management tool with PostgresSQL to prepare dashboard in Tableau
 * Trained and tested the data
-* Passed data through LGBM regression and Prophet models to determine best applicable model
+* Passed data through Light Gradient Boosting Model (LGBMRegressor)  and Prophet model to determine best applicable model
 
 **Our Analytical Process**
 ![Analytical_Process](https://user-images.githubusercontent.com/96031520/172061669-45dc777b-445b-4f5c-a852-62eb12a279c5.png)
